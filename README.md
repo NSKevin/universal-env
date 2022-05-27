@@ -44,6 +44,9 @@ import { isWeex, isWeb, isMiniApp, isNode, isWeChatMiniProgram, isByteDanceMicro
 ### `isNode: boolean`
 校验 Node.js 环境
 
+### `isNativeJS: boolean`
+校验 NativeJS 环境
+
 ## 各容器内返回结果
 
 注：以下各小程序 WebView 内容器判断依赖 WebView 中注入容器的JS SDK。
